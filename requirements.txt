@@ -1,0 +1,9 @@
+# Tested with these versions; loosen if your environment needs to.
+pandas==3.0.2
+geopandas==1.1.3
+numpy==2.4.4
+h3==4.5.0
+
+# terramap is the (MIT-licensed) rendering library, installed from GitHub.
+# The [hexbin] extra pulls h3, needed for the hexbin map.
+terramap[hexbin] @ git+https://github.com/smnfrs/terramap.git
