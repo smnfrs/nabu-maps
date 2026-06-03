@@ -163,7 +163,7 @@ def main():
         terrain="high",
         title="V. velutina / V. crabro ratio — hexbinned, yearly",
         timestamps=steps,
-        timeline_start=0,
+        timeline_start="end",
     )
     m.add_layer(PointLayer(
         cells,

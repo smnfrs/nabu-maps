@@ -89,7 +89,7 @@ def main():
         title="V. velutina sightings in Germany",
         subtitle="Red in the month of observation, grey thereafter",
         timestamps=timestamps,
-        timeline_start=0,
+        timeline_start="end",
     )
     m.add_layer(ChoroplethLayer(
         cities_lk[["lk_id", "fill"]],
